@@ -1,0 +1,36 @@
+.new_user_controls {
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+.new_user__control {
+    /* margin-top: 1rem; */
+    margin-bottom: 2rem;
+}
+
+.new_user__control label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+    font-size: large;
+}
+
+.new_user__control input{
+    width: 98%;
+    height: 15px;
+    padding: 0.5rem;
+    border: 1px solid rgb(195, 195, 195);
+}
+
+
+.new_user__actions button {
+    border-radius: 0px;
+    background-color: rgb(69, 23, 112);
+    border: black;
+    padding: 6px 12px;
+    font-size: large;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
