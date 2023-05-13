@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import NewUser from './Components/Users/NewUser'
-import UsersList from './Components/Users/UsersList'
+import UsersList from './Components/Users/UserList'
 
 
 const App = () => {
