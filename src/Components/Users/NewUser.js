@@ -2,6 +2,7 @@ import { useState } from "react";
 import Card from "../UI/Card";
 import classes from "./NewUser.module.css";
 import ErrorModal from "../UI/ErrorModal";
+import Button from "../UI/Button";
 
 const NewUser = (props) => {
   const [enteredName, setEnteredName] = useState("");
@@ -60,7 +61,7 @@ const NewUser = (props) => {
           </div>
         </div>
         <div className={classes.new_user__actions}>
-          <button type="submit">Add User</button>
+          <Button type="submit">Add User</Button>
         </div>
       </form>
     </Card>

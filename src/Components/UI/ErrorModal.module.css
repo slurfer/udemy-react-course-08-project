@@ -38,15 +38,5 @@
 }
 
 .invalid_input__button {
-  background-color: rgb(69, 23, 112);
-  color: white;
-  border: hidden;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 15px;
-  font-weight: 600;
-  cursor: pointer;
-  margin-top: 10px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   align-self: flex-end;
 }
