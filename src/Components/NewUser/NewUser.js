@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Card from "../UI/Card";
 import classes from "./NewUser.module.css";
-import InvalidInput from "../Error/InvalidInput";
+import ErrorModal from "../UI/ErrorModal";
 
 const NewUser = (props) => {
   const [enteredName, setEnteredName] = useState("");
@@ -47,7 +47,7 @@ const NewUser = (props) => {
 
   return (
     <Card>
-      {error.trim().length > 0 && <InvalidInput onConfirm={confirmErrorHandler} message={error} />}
+      {error.trim().length > 0 && <ErrorModal onConfirm={confirmErrorHandler} message={error} />}
       <form onSubmit={submitHandler}>
         <div className={classes.new_user__controls}>
           <div className={classes.new_user__control}>
